@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-mail Sender v1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="mail-client.js"></script>
+</head>
+
+<body>
+<div>
+    <h1>Welcome to Social Mail</h1>
+    <h2>Send e-mails from sample@haitran.com to someone</h2>
+    <p>
+    <form id="email-form">
+        Recipient: <input type="email" name="recipient" required><br><br>
+        Message content: <input type="text" name="message"><br><br>
+        <input type="submit" name="send" value="Send">
+        <input type="submit" name="spam" value="Spam">
+    </form>
+    </p>
+    <h2><span class="result-message"></span></h2>
+</div>
+</body>
+</html>
